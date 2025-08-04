@@ -724,9 +724,12 @@
 
 /* Newsletter Section */
 .newsletter-section {
-    background-image: url('/rectangle-4384.svg');
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color:#67A0EE;
     background-size: cover;
     background-position: center;
+    margin-bottom: 20px;
     padding: var(--spacing-2xl) var(--spacing-lg);
     text-align: center;
 }
